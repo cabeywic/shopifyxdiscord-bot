@@ -1,0 +1,22 @@
+{
+  "name": "discord-shopify-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "publish": "node src/deploy-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charaka Abeywickrama",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^6.0.1",
+    "axios": "^1.2.2",
+    "discord.js": "^14.7.1",
+    "parse-link-header": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
